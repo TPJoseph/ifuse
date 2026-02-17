@@ -395,7 +395,7 @@ void *ifuse_init(struct fuse_conn_info *conn, struct fuse_config *cfg)
 {
 	afc_client_t afc = NULL;
 
-	conn->want &= FUSE_CAP_ASYNC_READ;
+	conn->want &= ~FUSE_CAP_ASYNC_READ;
 
 	if (house_arrest) {
 		afc_client_new_from_house_arrest_client(house_arrest, &afc);
