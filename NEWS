@@ -1,3 +1,11 @@
+Version 1.2.1
+~~~~~~~~~~~~~
+
+Bugfix Release
+
+* Changes:
+  -  Fix FUSE capability flags set during initialization causing data corruption 
+
 Version 1.2.0
 ~~~~~~~~~~~~~
 
