@@ -4,6 +4,10 @@
 
 ![](https://github.com/libimobiledevice/ifuse/actions/workflows/build.yml/badge.svg)
 
+:warning: **Version 1.2.0 has a serious bug that results in data corruption.
+Regression was introduced in commit [36956a](/../../commit/36956a5179e224f57ebb9d0f01314c09c8bf0f97)
+and fixed in Version 1.2.1 with commit [903a29](/../../commit/903a29c7424028304aeef137d7c24e176b73fccf).**
+
 ## Table of Contents
 - [Features](#features)
 - [Building](#building)
@@ -294,4 +298,4 @@ iPadOS, tvOS, watchOS, and macOS are trademarks of Apple Inc.
 This project is an independent software application and has not been authorized,
 sponsored, or otherwise approved by Apple Inc.
 
-README Updated on: 2025-10-14
+README Updated on: 2026-04-22
